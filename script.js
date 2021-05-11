@@ -1,4 +1,6 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript"; 
+const h6 = document.createElement('h6');
+h6.textContent = "Another One, Please";
 
-document.querySelector('body').appendChild(h2); 
+
+
+document.querySelector('body').appendChild(h6); 
