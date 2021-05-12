@@ -42,6 +42,22 @@ h6.addEventListener('click', function() {
                                             h6.addEventListener('click', function() {
                                                 worm.src = "./images/worm26.jpg"
                                                 h6.textContent = "Just A Weird One.";
+                                                h6.addEventListener('click', function() {
+                                                    worm.src = "./images/worm21.jpg"
+                                                    h6.textContent = "Ok, Just a Few More";
+                                                    h6.addEventListener('click', function() {
+                                                        worm.src = "./images/worm14.jpg"
+                                                        h6.textContent = "There's this one";
+                                                        h6.addEventListener('click', function() {
+                                                            worm.src = "./images/worm24.jpg"
+                                                            h6.textContent = "This one";
+                                                            h6.addEventListener('click', function() {
+                                                                worm.src = "./images/worm25.jpg"
+                                                                h6.textContent = "And This Last one";
+                                                              });
+                                                          });
+                                                      });
+                                                  });
                                               });
                                           });
                                       });
@@ -54,4 +70,4 @@ h6.addEventListener('click', function() {
           });
        });
   });
-  
+ 
