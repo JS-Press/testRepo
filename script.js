@@ -44,7 +44,7 @@ h6.addEventListener('click', function() {
                                                 h6.textContent = "Just A Weird One.";
                                                 h6.addEventListener('click', function() {
                                                     worm.src = "./images/worm21.jpg"
-                                                    h6.textContent = "Ok, Just a Few More";
+                                                    h6.textContent = "Ok, a Few More";
                                                     h6.addEventListener('click', function() {
                                                         worm.src = "./images/worm14.jpg"
                                                         h6.textContent = "There's this one";
